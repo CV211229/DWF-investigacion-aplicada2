@@ -11,8 +11,10 @@ PowerShell (Windows) o terminal compatible
 #Instalación y Ejecución
 -------------------------------------------------------------------------------------------------------------------------
 1. Clonar el repositorio o descargar la carpeta desde github.
+   
 2. Ejecutar powershell e ingresar el comando (docker compose up --build)
-Este comando creará y levantará dos contenedores interconectados:
+   
+3. Este comando creará y levantará dos contenedores interconectados:
 
 API - Servicio principal de la aplicación
 
@@ -26,11 +28,22 @@ http://localhost:8080/api/products
 RabbitMQ Management Console
 http://localhost:15672/
 
+H2
+http://localhost:8080/h2-console
+
 #Credenciales RabbitMQ
 --------------------------------------------------------------------------------------------------------------------------------
 Usuario: guest
 
 Contraseña: guest
+
+#Credenciales de H2
+--------------------------------------------------------------------------------------------------------------------------------------
+JDBC URL: jdbc:h2:mem:testdb
+
+User Name: sa
+
+Password: (dejar vacío)
 
 #Uso
 ------------------------------------------------------------------------------------------------------------------------------------
