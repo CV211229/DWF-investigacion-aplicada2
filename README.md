@@ -1,14 +1,12 @@
 # Descripción
 Este proyecto consiste en una API que se ejecuta junto con RabbitMQ en contenedores Docker utilizando Docker Compose.
 
-#Prerrequisitos
--------------------------------------------------------------------------------------------------------------------------
+# Prerrequisitos
 Docker instalado y en ejecución
 
 PowerShell (Windows) o terminal compatible
 
-#Instalación y Ejecución
--------------------------------------------------------------------------------------------------------------------------
+# Instalación y Ejecución
 1. Clonar el repositorio o descargar la carpeta desde github.
    
 2. Ejecutar powershell e ingresar el comando (docker compose up --build)
