@@ -1,5 +1,4 @@
 # Descripción
--------------------------------------------------------------------------------------------------------------------------
 Este proyecto consiste en una API que se ejecuta junto con RabbitMQ en contenedores Docker utilizando Docker Compose.
 
 #Prerrequisitos
